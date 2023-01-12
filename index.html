@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+  </head>
+<body>
+
+  <h1>Calculator</h1>
+  <form id="calculator">
+    <label for="num1">First number</label>
+    <input id="num1" type="number" name="num1Input">
+    <label for="num2">Second number</label>
+    <input id="num2" type="number" name="num2Input">
+
+    <label>
+      <input type="radio" name="operator" value="add">
+      add
+    </label>
+    <label>
+      <input type="radio" name="operator" value="subtract">
+      subtract
+    </label>
+    <label>
+      <input type="radio" name="operator" value="mult">
+      mult
+    </label>
+    <label>
+      <input type="radio" name="operator" value="divide">
+      divide
+    </label>
+    <!--We forgot to add radio buttons the first time-->
+
+  
+    <button type="submit" class="btn">Calculate</button>
+  </form>
+
+  <h2>Result:</h2>
+  <p id="output"></p><!--No span OR class needed here, just id-->
+  
+</body>
+</html>
